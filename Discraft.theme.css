@@ -1,0 +1,17 @@
+/**
+ * @name DisCraft
+ * @author João Ribeiro
+ * @description Turn your Discord into Minecraft
+ * @version 0.0.1
+ */
+@font-face {
+    font-family: 'Monocraft';
+    src: url('https://github.com/IdreesInc/Monocraft/releases/download/v3.0/Monocraft-nerd-fonts-patched.ttf') format('truetype');
+}
+
+:root {
+  --font-primary: "Monocraft", sans-serif;
+  --background: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg);
+  --background-mentioned: hsl(var(--green-260-hsl)/0.1);
+  --background-mentioned-hover: hsl(var(--green-300-hsl)/0.1);
+}
